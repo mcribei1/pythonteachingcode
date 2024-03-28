@@ -1,21 +1,13 @@
-# Python Teaching Code
-This repository ("repo") contains a variety of starter project code and demo code for showing different capabilities and how to use them in Python.
-
-Begin by forking this repository to your own Github account. Next, you can clone it to your machine and run the examples and customize the code. If you do not fork it first, you will not be able to save changes, as you do not have permission to change this original template in my account.
-
-The projects included here include working code and some experimental code. Some also require additional libraries and capabilities on your computer in order for you to use them. Those are noted below.
-
-1. Gradetracker
-> This project is a simple demonstration of an application in fewer than 100 lines of code. You can see functions and other capabilities used here. The code requires the built-in statistics library to be imported. It should run on any version of Python 3.
-2. KSU scrape
-> This project demonstrates how Python can be used to grab data from a web page and process it into orderly results that can be used for further analysis and actions. It requires several add-on libraries. You will especially need to install the beautiful soup library and the lxml parser library in order to use this code. The command line command for installing is '''pip install bs4''' This may work for you. Otherwise, you may need to try '''python -m pip install bs4''' On a Mac, you will need to guide the install to your Python 3 installation, since Macs also already have Python 2 associated with the command '''python''' by default. So, you would run '''pip3 install bs4'''. Similarly, you can install other modules by putting their official name instead of '''bs4''' in the preceding commands. For more info, watch https://www.youtube.com/watch?v=jnpC_Ib_lbc.
-3. calcGUI
-> This project shows you a Python application working in a graphical user interface window with buttons and bindings to your keyboard keys. It should work on all Python 3.6 or newer versions, because they have the GUI library tkinter pre-installed.
-4. DB in Python
-> This project demonstrates how to connect Python to a local MySQL database server. It requires that you download and install MySQL server on your local machine first. Next, you have to import the database of student data (.sql file) into your MySQL server. Then, you need to edit the code to use the password for your MySQL server on your machine and install and import the library to connect to MySQL. Then, it can work! There is also a folder here with experimental code for transforming gradetracker into GUI and DB-driven versions. These may not work, but you are welcome to test them and upgrade them.
-5. RaspberryPi button
-> This project requires some wiring as well as a RaspberryPi computer and associated peripherals.
-6. Web Page with Flask
-> This project requires that you install the flask module. After that, when you run it, it will create a web server on your machine and host your Python and HTML files in dynamic web pages.
-7. Expense tracking with Python and Pandas
-> COMING SOON
+1. The Project Overview
+>The expense-tracking software I'm planning to build is called Budget Boss. It can help with savings by assisting users in tracking their spending, setting savings goals, monitoring their progress, and identifying areas where they can cut expenses. I'm using two tutorials to combine codes, maximize the output, and utilize everything we learned during the semester.
+2. Benefit
+>The great benefit is that it is easy to use; there are no more overwhelming spreadsheets or manual calculations; we only need to log our spending. One of the best things about a Budget Boss is that it automatically categorizes expenses and provides real-time updates on your spending habits. This feature alone can help you identify areas where you may be overspending and adjust accordingly.
+> Budgeting apps can provide insights into spending patterns and offer personalized recommendations to help users save more money. 
+3.Installed and Used Program
+>Github-desktop, Python 
+4.Sources
+>https://www.youtube.com/watch?v=4TZ1K8EHT2M
+https://www.youtube.com/watch?v=HTD86h69PtE
+5.Predicted Outcome
+> easy user interface 
+>  organized, motivated, expense tracking and money saving 
